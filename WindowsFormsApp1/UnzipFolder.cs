@@ -51,8 +51,7 @@ namespace WindowsFormsApp1
                 textBox1.Text = ofd.FileName;
             }
         }
-
-
+        
         private void button3_Click(object sender, EventArgs e)
         {
             FolderBrowserDialog bd = new FolderBrowserDialog();
@@ -61,5 +60,6 @@ namespace WindowsFormsApp1
                 textBox2.Text = bd.SelectedPath;
             }
         }
+        
     }
 }

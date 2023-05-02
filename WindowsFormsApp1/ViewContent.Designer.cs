@@ -41,6 +41,7 @@ namespace WindowsFormsApp1
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.treeView1 = new System.Windows.Forms.TreeView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
@@ -71,7 +72,7 @@ namespace WindowsFormsApp1
             // 
             this.button3.Location = new System.Drawing.Point(570, 50);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(93, 39);
+            this.button3.Size = new System.Drawing.Size(93, 48);
             this.button3.TabIndex = 9;
             this.button3.Text = "Выбрать";
             this.button3.UseVisualStyleBackColor = true;
@@ -136,12 +137,20 @@ namespace WindowsFormsApp1
             this.textBox3.Size = new System.Drawing.Size(405, 26);
             this.textBox3.TabIndex = 15;
             // 
+            // treeView1
+            // 
+            this.treeView1.Location = new System.Drawing.Point(50, 422);
+            this.treeView1.Name = "treeView1";
+            this.treeView1.Size = new System.Drawing.Size(560, 233);
+            this.treeView1.TabIndex = 3;
+            // 
             // ViewContent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MistyRose;
-            this.ClientSize = new System.Drawing.Size(668, 452);
+            this.ClientSize = new System.Drawing.Size(668, 672);
+            this.Controls.Add(this.treeView1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.pictureBox5);
@@ -158,6 +167,8 @@ namespace WindowsFormsApp1
             this.ResumeLayout(false);
             this.PerformLayout();
         }
+
+        private System.Windows.Forms.TreeView treeView1;
 
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button3;

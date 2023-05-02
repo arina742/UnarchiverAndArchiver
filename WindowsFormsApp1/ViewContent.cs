@@ -10,14 +10,16 @@ namespace WindowsFormsApp1
         public ViewContent()
         {
             InitializeComponent();
+            ZipManager.TreeView = treeView1;
         }
         
         private void button3_Click(object sender, EventArgs e)
         {
-            FolderBrowserDialog bd = new FolderBrowserDialog();
-            if (bd.ShowDialog() == DialogResult.OK)
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Filter = "ZIP архив|*.zip";
+            if (ofd.ShowDialog() == DialogResult.OK)
             {
-                textBox3.Text = bd.SelectedPath;
+                textBox3.Text = ofd.FileName;
             }
         }
 
@@ -27,7 +29,6 @@ namespace WindowsFormsApp1
             if (ZipManager.IsFileExist(path))
             {
                 ZipManager.Open(path);
-                Close();
             }
             else
             {

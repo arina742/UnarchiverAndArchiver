@@ -57,9 +57,9 @@ namespace WindowsFormsApp1
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(564, 56);
+            this.button1.Location = new System.Drawing.Point(564, 52);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(92, 34);
+            this.button1.Size = new System.Drawing.Size(92, 43);
             this.button1.TabIndex = 1;
             this.button1.Text = "Выбрать";
             this.button1.UseVisualStyleBackColor = true;
@@ -127,9 +127,9 @@ namespace WindowsFormsApp1
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(564, 123);
+            this.button3.Location = new System.Drawing.Point(564, 120);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(92, 33);
+            this.button3.Size = new System.Drawing.Size(92, 42);
             this.button3.TabIndex = 8;
             this.button3.Text = "Выбрать";
             this.button3.UseVisualStyleBackColor = true;
@@ -155,11 +155,11 @@ namespace WindowsFormsApp1
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(258, 96);
+            this.label5.Location = new System.Drawing.Point(198, 96);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(128, 29);
+            this.label5.Size = new System.Drawing.Size(286, 29);
             this.label5.TabIndex = 11;
-            this.label5.Text = "Путь к архиву";
+            this.label5.Text = "Куда разархивируется ";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // UnzipFolder
